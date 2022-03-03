@@ -4,7 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Kevin Abrahams's Personal Portfolio Page</title>
 		<style>
-			@media (max-width: 750px) {
+			@media (max-width: 799px) {
 				body {
 					margin: 0px;
 					padding: 0px;
@@ -173,7 +173,6 @@
 					bottom: 10vh;
 					width: 100vw;
 					text-align: center;
-					margin: auto;
 				}
 				
 				.profile_logo {
@@ -183,21 +182,29 @@
 				#profile-link {
 					grid-row: 1 / 2;
 					grid-column: 1 / 2;
+					font-size: 3vw;
 				}
 				
 				#linkedin-link {
 					grid-row: 1 / 2;
 					gird-column: 2 / 3;
+					font-size: 3vw;
 				}
 				
 				#email-link {
 					grid-row: 1 / 2;
 					grid-column: 3 / 4;
+					font-size: 3vw;
 				}
 				
 				#phone-link {
 					grid-row: 1 / 2;
 					grid-column: 4 / 5;
+					font-size: 3vw;
+				}
+				
+				#email-logo {
+					width: 13vw;
 				}
 				
 				#profile-links > a:hover {
@@ -205,7 +212,7 @@
 				}
 			}
 			
-			@media (max-width: 700px) and (orientation: landscape) {
+			/* @media (max-width: 799px) and (orientation: landscape) {
 				body {
 					margin: 0px;
 					padding: 0px;
@@ -408,210 +415,8 @@
 				}
 			}
 			
-			@media (max-width: 751px) {
-				body {
-					margin: 0px;
-					padding: 0px;
-					font-family: Courier;
-					font-size: 130%;
-				}
 			
-				#welcome-section {
-					width: 100vw;
-					height: 100vh;
-					background: linear-gradient(35deg, #F391A0, pink);
-				}
-				
-				#navbar {
-					position: fixed;
-					top: 0px;
-					width: 100vw;
-					height: 10vh;
-					background: #F391A0;
-					display: flex;
-					flex-direction: row;
-					align-items: center;
-					justify-content: flex-end;
-					font-size: 3vw;
-					
-				}
-				
-				a {
-					padding: 3.4vh;
-					padding-top: 3.9vh;
-					padding-bottom: 3.9vh;
-					text-decoration: none;
-					color: #FFF;
-				}
-				
-				#navbar a:hover {
-					background: Pink;
-				}
-				
-				#welcome-section h1 {
-					color: #FFF;
-					font-size: 3em;
-					position: relative;
-					top: 25vh;
-					text-align: center;
-				}
-				
-				#welcome-section h2 {
-					color: #F391A0;
-					text-align: center;
-					position: relative;
-					top: 20vh;
-				}
-				
-				
-				#projects {
-					width: 100vw;
-					height: 100vh;
-					display: grid;
-					column-gap: 0vw;
-					margin: 0px;
-				}
-				
-				#projects h2 {
-					text-align: center;
-					grid-row: 1 / 2;
-					grid-column: 1 / 4;
-					width: 80vw;
-					font-size: 7vw;
-					margin: auto;
-					margin-top: 3vw;
-					margin-left: 10vw;
-				}
-				
-				.project-tile {
-					width: 80vw;
-					display: block;
-					text-align: center;
-				}
-				
-				.project-tile:hover {
-				
-				}
-				
-				.tile-img {
-					width: 85vw;
-					height: 85vw;
-					margin: auto;
-					margin-left: 0vw;
-					border: 1px solid black;
-				}
-				
-				.project-tile:hover > .tile-header {
-					color: white;
-					background: black;
-				}
-				
-				.tile-header {
-					color: black;
-					border: 1px solid black;
-					margin-top: 1vw;
-					width: 85vw;
-					text-align: center;
-					margin: auto;	
-				}
-				
-				.tile-header:hover {
-					color: white;
-					background: black;
-					
-				}
-				
-				#tribute-page-header {
-					text-align: center;
-				}
-				
-				#tile1 {
-					grid-row: 2 / 3;
-					grid-column: 1 / 2;
-				}
-				
-				#tile2 {
-					grid-row: 3 / 4;
-					grid-column: 1 / 2;
-				}
-				
-				#tile3 {
-					grid-row: 4 / 5;
-					grid-column: 1 / 2;
-				}
-				
-				#tile4 {
-					grid-row: 5 / 6;
-					grid-column: 1 / 2;
-				}
-				
-				#profile-section {
-					width: 100vw;
-					height: 88vh;
-					background: linear-gradient(35deg, #F391A0, pink);
-					position: relative;
-					top: 450vw;
-					text-align: center;
-					display: grid;
-				}
-				
-				#profile-section h1 {
-					font-size: 7vw;
-					position: relative;
-					top: 25vh;
-					color: white;
-					grid-column: 1 / 2;
-					grid-row: 1 / 2;
-				}
-				
-				#profile-section h2 {
-					position: relative;
-					top: 3vh;
-					grid-column: 1 / 2;
-					grid-row: 2 / 3;
-					font-style: italic;
-				}
-				
-				#profile-links {
-					position: relative;
-					display: grid;
-					top: 0vh;
-					bottom: 10vh;
-					width: 100vw;
-					text-align: center;
-					margin: auto;
-				}
-				
-				.profile_logo {
-					width: 3vw;
-				}
-				
-				#profile-link {
-					grid-row: 1 / 2;
-					grid-column: 1 / 2;
-				}
-				
-				#linkedin-link {
-					grid-row: 1 / 2;
-					gird-column: 2 / 3;
-				}
-				
-				#email-link {
-					grid-row: 1 / 2;
-					grid-column: 3 / 4;
-				}
-				
-				#phone-link {
-					grid-row: 1 / 2;
-					grid-column: 4 / 5;
-				}
-				
-				#profile-links > a:hover {
-					color: black;
-				}
-			}
-			
-			@media (min-width: 799px) {
+			@media (min-width: 800px) {
 			
 				body {
 					margin: 0px;
@@ -795,11 +600,11 @@
 				#profile-links > a:hover {
 					position: relative;
 					top: 2vh;
-				}
+				} */ 
 			}
 		</style>
 	</head>
-	<body>
+	<body> <
 		<nav id="navbar">
 			<a href="#welcome-section" class="nav-link">About </a>
 			<a href="#projects" class="nav-link">Work </a>
@@ -843,7 +648,7 @@
 					<img  class="profile_logo" src="github_logo.png" /> Github
 				</a>
 				<a id="email-link" href="mailto: kabra3570@gmail.com">
-					<img  class="profile_logo" src="email_logo.png" /> Email
+					<img  class="profile_logo" id="email_logo" src="email_logo.png" /> Email
 				</a>
 				<a id="phone-link" href="tel:+17189132951">
 					<img  class="profile_logo" src="phone_logo.png" /> Phone
